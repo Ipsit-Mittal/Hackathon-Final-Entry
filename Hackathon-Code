@@ -1,0 +1,374 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+        nav{
+            width: 100%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 10px 0;
+            box-shadow: 0px 5px 0px #aaa;
+            }
+        nav a{
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: #aaa;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin: 0 10px;
+            transition: .5s;
+            display: inline-block;
+            margin-right: 10px;
+            }
+        nav a:hover{
+            color:#080808;
+            background-color: rgb(255, 195, 82);
+            }
+        .title {
+            font-family: "Montserrat";
+            text-align: center;
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 81vh;
+            letter-spacing: 1px;
+            background-color: rgb(188, 225, 248);
+            border-radius: 14px;
+            }
+        h1 {
+            background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+            background-size: cover;
+            color: transparent;
+            -moz-background-clip: text;
+            -webkit-background-clip: text;
+            text-transform: uppercase;
+            font-size: 160px;
+            line-height: .75;
+            margin: 10px 0;
+            }
+        h2{
+            color:orange;
+            font-size: 38px;
+            text-align: center;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        }
+        h3{
+            color:black;
+            font-size: 38px;
+            text-align: center;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        }
+        .div3{
+            width: 100%;
+            height: 97%;
+            margin: 30px;
+            background-color: black;
+            border: 1px solid black;
+            font-size: 28px;
+            border-radius: 14px;
+            text-align:center;
+            align-items:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            margin-left: auto; 
+            margin-right: auto;
+            opacity: 0.8;
+            color: yellow;      
+        }
+        .div4{
+            width: 100%; 
+            height: 95%;
+            border-radius: 14px;
+            opacity: 0.9;
+            animation: gallery_background 10s infinite;
+        }
+        @keyframes gallery_background{
+            0%{
+            background: url('img8.jpg') no-repeat;
+            background-size:cover;
+            }
+            33%{
+                background: url('img6.jpg ') no-repeat;
+                background-size:cover;
+            }
+            66%{
+                background: url('img7.jpg') no-repeat;
+                background-size:cover;
+            }
+            100%{
+                background: url('img5.jpg ') no-repeat;
+                background-size:cover;
+            }
+        }
+        .div5{
+            width: 100%; 
+            height: 95%;
+            border-radius: 14px;
+            opacity: 0.9;
+            animation: chatbot_background 10s infinite;
+        }
+        @keyframes chatbot_background{
+            0%{
+                background: url('img9.jpg') no-repeat;
+                background-size:cover;
+            }
+            33%{
+                background: url('img10.jpeg ') no-repeat;
+                background-size:cover;
+            }
+            66%{
+                background: url('img11.png') no-repeat;
+                background-size:cover;
+            }
+            100%{
+                background: url('img12.png ') no-repeat;
+                background-size:cover;
+            }
+        }
+        .div6{
+            width: 100%;
+            height: 40%;
+            background-image: url(img13.jpg);
+            font-size: 120px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            border-radius: 14px;
+            color: green;
+        }
+        .div7{
+            width: 87%;
+            height: 80%;
+            margin: 30px;
+            background-color: lightblue;
+            border: 1px solid lightblue;
+            font-size: 32px;
+            border-radius: 14px;
+            text-align:center;
+            align-items:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            margin-left: auto; 
+            margin-right: auto;
+            opacity: 0.8;
+            color: red;      
+        }
+        .div8{
+            width:75%;
+            height: 240px;
+            background-color: gold;
+            right: -330px;
+            text-align:left;
+            float:right;
+            font-size: 32px;
+            color: green;
+        }
+        .div9{
+            float: left;
+        }
+        .div10{
+            width: 100%; 
+            height: 95%;
+            border-radius: 14px;
+            opacity: 0.9;
+            animation: virtual_tour 10s infinite;
+        }
+        @keyframes virtual_tour {
+            0%{
+                background: url('img14.jpg') no-repeat;
+                background-size:cover;
+            }
+            20%{
+                background: url('img15.jpg') no-repeat;
+                background-size:cover;
+            }
+            40%{
+                background: url('img16.jpg') no-repeat;
+                background-size:cover;
+            }
+            60%{
+                background: url('img17.jpg') no-repeat;
+                background-size:cover;
+            }
+            80%{
+                background: url('img18.jpg') no-repeat;
+                background-size:cover;
+            }
+            100%{
+                background: url('img19.jpg') no-repeat;
+                background-size:cover;
+            }
+        }
+        .div11{
+            width: 87%;
+            height: 80%;
+            margin: 30px;
+            background-color: transparent;
+            border: 1px solid;
+            font-size: 160px;
+            border-radius: 14px;
+            text-align:center;
+            align-items:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            margin-left: auto; 
+            margin-right: auto;
+            opacity: 1;
+            color: white;   
+        }
+        .div11:hover {
+            height:83%;
+            width:90%
+        }
+        a{
+            color: white;
+        }
+    </style>
+    <head><title>Found Again</title></head>
+    <body>
+        <nav>
+            <a href='#topic_1'>Introduction</a> 
+            <a href="#topic_2">Chatbot</a> 
+            <a href="#topic_3">Yoga Poses</a> 
+            <a href='#topic_4'>Virtual Tours</a>
+        </nav><br>
+        <div class='title'>
+            <h1>Found<br>Again</h1>
+        </div>
+        <a name='topic_1'><br></a>
+        <div class='div4'>
+            <div class='div3'>
+                <h2>Introduction</h2><hr width=100%>
+                With the beginning of the COVID era, many services were disontinued to try and stop the spread of the 
+                deadly virus. However, the alternatives to everything were found rather too quickly. For example: cinemas
+                were replaced by OTT platforms like netflix, shopping malls were replaced by online shopping platforms
+                like amazon, schools and offices were replaced by online meeting platforms, outdoor activities were 
+                replaced by video games etc.<br><br>
+                But all these alternatives came with inherent flaws, which have cost us too much. Cinemas and shopping 
+                malls always meant joyous outings, schools meant a lot more than just studies and video games can 
+                never come anywhere near the outdoor sports. So many screens during the pandemic have actually led us 
+                into darkness. People are suffering from so many mental diseases, out of which depression, anxiety 
+                and stress are just a few names.
+                Amongst children and teens; obesity, indigestion, neck pain and insomnia have become extremely common. 
+                The diseases with which only senior citizens suffered have now started endangering children.
+                
+                <br><br><i><b>So, the 
+                question we need to ask ourselves is what do we still miss? We are sure that your answer will be a better 
+                quality of life.</i></div>
+            </div>
+        </div><a name='topic_2'><br></a>
+        <div class='div5'><br><br>
+            <div class='div7'>
+                <h3>Chatbot</h3>
+                <hr width=100%>
+                To give you the better quality of life that you deserve, we have made a chatbot to help you deal with most 
+                common, yet most devastating physical and mental diseases. Click on the bottom right corner to talk to the bot.
+            </div>
+        </div>
+        <script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js" defer>610f7e3ba0fdab78e43faee6,610f7d4ef5bb6e78fb5d7c63</script>
+        <a name='topic_3'><br></a>
+        <div class='div6'>
+            Yoga Poses
+        </div><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="1. Immunity.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is the <b><i>Trikon Aasana (Triangle Pose)</i></b>. Its benefits include:
+            <ul>
+                <li>Reduces stress</li>
+                <li>Stimulates your organs</li>
+                <li>Opens the hips and shoulders</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="1. Physical Health.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is the <b><i>Maarjariasana (Cat And Cow Pose)</i></b>. Its benefits include:
+            <ul>
+                <li>Helps relieve a backache</li>
+                <li>Relaxes the mind</li>
+                <li>Improves blood circulation</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="2. Physical Health.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is the <b><i>Veerbhadra Aasana (Warrior Pose)</i></b>. Its benefits include:
+            <ul>
+                <li>Improves focus, balance and stability.</li>
+                <li>Encourages good circulation and respiration.</li>
+                <li>Strengthens your shoulders, arms, legs, ankles and back.</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="1. Mental Health.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is the <b><i>Bhujang Aasana (Cobra Pose)</i></b>. Its benefits include:
+            <ul>
+                <li>Opens the heart and lungs.</li>
+                <li>Helps relieve stress and fatigue.</li>
+                <li>Strengthens the spine.</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="2. Mental Health.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is the <b><i>Ushtra Aasana</i></b>. Its benefits include:
+            <ul>
+                <li>Stretches the entire front of the body, the ankles, thighs and groins</li>
+                <li>Abdomen and chest, and throat.</li>
+                <li>Stretches the deep hip flexors (psoas)</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class='div9'>
+            <video width="320" height="240" controls>
+            <source src="Social Health.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class='div8'>
+            This is <b><i>Laughing Yoga</i></b> . Its benefits include:
+            <ul>
+                <li>Boosts Your Immune System</li>
+                <li>Lowers Stress</li>
+                <li>Protects Your Heart</li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a name='topic_4'><br></a>
+        <div class='div10'><br><br>
+            <div class='div11'>
+                <a href='https://www.airpano.com/'>Virtual Tours</a>
+            </div>
+        </div>
+     </body>
+</html>
